@@ -10,7 +10,13 @@ import EditarProdutos from './assets/EditarProdutos/index.jsx'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <App />
+    <App/>
+  </React.StrictMode>,
+)
+
+ReactDOM.createRoot(document.getElementById('root')).render(
+  <React.StrictMode>
+    <RouterProvider router={router} />
   </React.StrictMode>,
 )
 
